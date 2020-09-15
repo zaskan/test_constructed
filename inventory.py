@@ -2,7 +2,7 @@
 
 import json
 
-with open("origin/zaskan.json") as json_file:
-  data=json.load(json_file)
+with open('origin/zaskan.json') as f:
+  data = json.load(f)
 
-print(data)
+print(json.dumps(data, indent = 4, sort_keys=True))
