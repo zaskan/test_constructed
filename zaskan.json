@@ -1,0 +1,1523 @@
+{
+    "Domain_WORKGROUP": {
+        "hosts": [
+            "wsae000771.eu.zaskan.com"
+        ]
+    }, 
+    "Domain_eu_zaskan_com": {
+        "hosts": [
+            "wsae000768.eu.zaskan.com", 
+            "wsae000769.eu.zaskan.com", 
+            "wsae000770.eu.zaskan.com"
+        ]
+    }, 
+    "OS_Microsoft_Windows_Server_2019_Standard": {
+        "hosts": [
+            "wsae000768.eu.zaskan.com", 
+            "wsae000769.eu.zaskan.com", 
+            "wsae000770.eu.zaskan.com", 
+            "wsae000771.eu.zaskan.com"
+        ]
+    }, 
+    "WSAE000002": {
+        "hosts": [
+            "wsae000002.eu.zaskan.com"
+        ]
+    }, 
+    "WSAE000768": {
+        "hosts": [
+            "wsae000768.eu.zaskan.com"
+        ]
+    }, 
+    "WSAE000769": {
+        "hosts": [
+            "wsae000769.eu.zaskan.com"
+        ]
+    }, 
+    "WSAE000770": {
+        "hosts": [
+            "wsae000770.eu.zaskan.com"
+        ]
+    }, 
+    "WSAE000771": {
+        "hosts": [
+            "wsae000771.eu.zaskan.com"
+        ]
+    }, 
+    "WSTE000007": {
+        "hosts": [
+            "wste000007.eu.zaskan.com"
+        ]
+    }, 
+    "_meta": {
+        "hostvars": {
+            "wsae000002.eu.zaskan.com": {
+                "ansible_become_method": "runas", 
+                "ansible_connection": "winrm", 
+                "ansible_password": "RedHatAn$1ble1", 
+                "ansible_port": 5986, 
+                "ansible_user": "AnsibleAdmin", 
+                "ansible_winrm_message_encryption": "always", 
+                "ansible_winrm_operation_timeout_sec": 60, 
+                "ansible_winrm_read_timeout_sec": 70, 
+                "ansible_winrm_server_cert_validation": "ignore", 
+                "ansible_winrm_transport": "ntlm", 
+                "application_ci": [], 
+                "collect_facts": false, 
+                "zaskan_certs": "ZaskanCerts", 
+                "zaskan_choco_repo": "https://nexus3.zaskan.nl/repository/nuget_chocolatey_release/", 
+                "zaskan_config_dir": "\\zaskan\\Config", 
+                "zaskan_log_dir": "\\zaskan\\Logs", 
+                "zaskan_software_library": "http://dsl.zaskan.corp/SoftwareLibrary/", 
+                "skip_reboot": false
+            }, 
+            "wsae000768.eu.zaskan.com": {
+                "ansible_architecture": {
+                    "__ansible_unsafe": "64-bit"
+                }, 
+                "ansible_become_method": "runas", 
+                "ansible_bios_date": {
+                    "__ansible_unsafe": "04/05/2016"
+                }, 
+                "ansible_bios_version": {
+                    "__ansible_unsafe": "6.00"
+                }, 
+                "ansible_connection": "winrm", 
+                "ansible_date_time": {
+                    "date": {
+                        "__ansible_unsafe": "2020-09-10"
+                    }, 
+                    "day": {
+                        "__ansible_unsafe": "10"
+                    }, 
+                    "epoch": {
+                        "__ansible_unsafe": "1599730252.57745"
+                    }, 
+                    "hour": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "iso8601": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52Z"
+                    }, 
+                    "iso8601_basic": {
+                        "__ansible_unsafe": "20200910T093052577452"
+                    }, 
+                    "iso8601_basic_short": {
+                        "__ansible_unsafe": "20200910T093052"
+                    }, 
+                    "iso8601_micro": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52.577452Z"
+                    }, 
+                    "minute": {
+                        "__ansible_unsafe": "30"
+                    }, 
+                    "month": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "second": {
+                        "__ansible_unsafe": "52"
+                    }, 
+                    "time": {
+                        "__ansible_unsafe": "09:30:52"
+                    }, 
+                    "tz": {
+                        "__ansible_unsafe": "W. Europe Standard Time"
+                    }, 
+                    "tz_offset": {
+                        "__ansible_unsafe": "+02:00"
+                    }, 
+                    "weekday": {
+                        "__ansible_unsafe": "Thursday"
+                    }, 
+                    "weekday_number": {
+                        "__ansible_unsafe": "4"
+                    }, 
+                    "weeknumber": {
+                        "__ansible_unsafe": "36"
+                    }, 
+                    "year": {
+                        "__ansible_unsafe": "2020"
+                    }
+                }, 
+                "ansible_distribution": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_distribution_major_version": {
+                    "__ansible_unsafe": "10"
+                }, 
+                "ansible_distribution_version": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_domain": {
+                    "__ansible_unsafe": "eu.zaskan.com"
+                }, 
+                "ansible_env": {
+                    "ALLUSERSPROFILE": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "APPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Roaming"
+                    }, 
+                    "COMPUTERNAME": {
+                        "__ansible_unsafe": "WSAE000768"
+                    }, 
+                    "ChocolateyInstall": {
+                        "__ansible_unsafe": "C:\\ProgramData\\chocolatey"
+                    }, 
+                    "ChocolateyLastPathUpdate": {
+                        "__ansible_unsafe": "132368545235578909"
+                    }, 
+                    "ComSpec": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32\\cmd.exe"
+                    }, 
+                    "CommonProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "CommonProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)\\Common Files"
+                    }, 
+                    "CommonProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "DriverData": {
+                        "__ansible_unsafe": "C:\\Windows\\System32\\Drivers\\DriverData"
+                    }, 
+                    "HOMEDRIVE": {
+                        "__ansible_unsafe": "C:"
+                    }, 
+                    "HOMEPATH": {
+                        "__ansible_unsafe": "\\Users\\AnsibleAdmin"
+                    }, 
+                    "LOCALAPPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Local"
+                    }, 
+                    "LOGONSERVER": {
+                        "__ansible_unsafe": "\\\\WSAE000768"
+                    }, 
+                    "NUMBER_OF_PROCESSORS": {
+                        "__ansible_unsafe": "2"
+                    }, 
+                    "OS": {
+                        "__ansible_unsafe": "Windows_NT"
+                    }, 
+                    "PATHEXT": {
+                        "__ansible_unsafe": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"
+                    }, 
+                    "PROCESSOR_ARCHITECTURE": {
+                        "__ansible_unsafe": "AMD64"
+                    }, 
+                    "PROCESSOR_IDENTIFIER": {
+                        "__ansible_unsafe": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel"
+                    }, 
+                    "PROCESSOR_LEVEL": {
+                        "__ansible_unsafe": "6"
+                    }, 
+                    "PROCESSOR_REVISION": {
+                        "__ansible_unsafe": "4f01"
+                    }, 
+                    "PROMPT": {
+                        "__ansible_unsafe": "$P$G"
+                    }, 
+                    "PSExecutionPolicyPreference": {
+                        "__ansible_unsafe": "Unrestricted"
+                    }, 
+                    "PSModulePath": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell"
+                    }, 
+                    "PUBLIC": {
+                        "__ansible_unsafe": "C:\\Users\\Public"
+                    }, 
+                    "Path": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\AnsibleAdmin\\AppData\\Local\\Microsoft\\WindowsApps"
+                    }, 
+                    "ProgramData": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "ProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "ProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)"
+                    }, 
+                    "ProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "SupportTeam": {
+                        "__ansible_unsafe": "EUDCTSWIN;EUDCTSDBA;"
+                    }, 
+                    "SystemDrive": {
+                        "__ansible_unsafe": "C:"
+                    }, 
+                    "SystemRoot": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }, 
+                    "TEMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "TMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "USERDOMAIN": {
+                        "__ansible_unsafe": "WSAE000768"
+                    }, 
+                    "USERDOMAIN_ROAMINGPROFILE": {
+                        "__ansible_unsafe": "WSAE000768"
+                    }, 
+                    "USERNAME": {
+                        "__ansible_unsafe": "AnsibleAdmin"
+                    }, 
+                    "USERPROFILE": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                    }, 
+                    "snow_agent": {
+                        "__ansible_unsafe": "C:\\Program Files\\Snow Software\\Inventory\\Agent"
+                    }, 
+                    "windir": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }
+                }, 
+                "ansible_fqdn": {
+                    "__ansible_unsafe": "WSAE000768.eu.zaskan.com"
+                }, 
+                "ansible_hostname": {
+                    "__ansible_unsafe": "WSAE000768"
+                }, 
+                "ansible_interfaces": [
+                    {
+                        "connection_name": {
+                            "__ansible_unsafe": "Intranet"
+                        }, 
+                        "default_gateway": {
+                            "__ansible_unsafe": "172.21.96.1"
+                        }, 
+                        "dns_domain": null, 
+                        "interface_index": 15, 
+                        "interface_name": {
+                            "__ansible_unsafe": "vmxnet3 Ethernet Adapter"
+                        }, 
+                        "macaddress": {
+                            "__ansible_unsafe": "00:50:56:A3:88:19"
+                        }
+                    }
+                ], 
+                "ansible_ip_addresses": [
+                    {
+                        "__ansible_unsafe": "172.21.96.157"
+                    }
+                ], 
+                "ansible_kernel": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_lastboot": {
+                    "__ansible_unsafe": "2020-07-09 23:14:25Z"
+                }, 
+                "ansible_machine_id": {
+                    "__ansible_unsafe": "S-1-5-21-1744142746-2197967567-3295576071"
+                }, 
+                "ansible_memtotal_mb": 4096, 
+                "ansible_netbios_name": {
+                    "__ansible_unsafe": "WSAE000768"
+                }, 
+                "ansible_nodename": {
+                    "__ansible_unsafe": "WSAE000768.eu.zaskan.com"
+                }, 
+                "ansible_os_family": {
+                    "__ansible_unsafe": "Windows"
+                }, 
+                "ansible_os_name": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_os_product_type": {
+                    "__ansible_unsafe": "server"
+                }, 
+                "ansible_owner_contact": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_owner_name": {
+                    "__ansible_unsafe": "zaskan ICT"
+                }, 
+                "ansible_password": "RedHatAn$1ble1", 
+                "ansible_port": 5986, 
+                "ansible_powershell_version": 5, 
+                "ansible_processor": [
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }, 
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }
+                ], 
+                "ansible_processor_cores": 1, 
+                "ansible_processor_count": 2, 
+                "ansible_processor_threads_per_core": 1, 
+                "ansible_processor_vcpus": 2, 
+                "ansible_product_name": {
+                    "__ansible_unsafe": "VMware Virtual Platform"
+                }, 
+                "ansible_product_serial": {
+                    "__ansible_unsafe": "VMware-42 23 f1 63 ea 13 01 71-22 4d 5d 93 27 78 ef e4"
+                }, 
+                "ansible_reboot_pending": null, 
+                "ansible_swaptotal_mb": 0, 
+                "ansible_system": {
+                    "__ansible_unsafe": "Win32NT"
+                }, 
+                "ansible_system_description": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_system_vendor": {
+                    "__ansible_unsafe": "VMware, Inc."
+                }, 
+                "ansible_uptime_seconds": 5393790, 
+                "ansible_user": "AnsibleAdmin", 
+                "ansible_user_dir": {
+                    "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                }, 
+                "ansible_user_gecos": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_user_id": {
+                    "__ansible_unsafe": "AnsibleAdmin"
+                }, 
+                "ansible_user_sid": {
+                    "__ansible_unsafe": "S-1-5-21-1744142746-2197967567-3295576071-1000"
+                }, 
+                "ansible_virtualization_role": {
+                    "__ansible_unsafe": "guest"
+                }, 
+                "ansible_virtualization_type": {
+                    "__ansible_unsafe": "VMware"
+                }, 
+                "ansible_win_rm_certificate_expires": {
+                    "__ansible_unsafe": "2022-06-26 16:51:48"
+                }, 
+                "ansible_windows_domain": {
+                    "__ansible_unsafe": "eu.zaskan.com"
+                }, 
+                "ansible_windows_domain_member": true, 
+                "ansible_windows_domain_role": {
+                    "__ansible_unsafe": "Member server"
+                }, 
+                "ansible_winrm_message_encryption": "always", 
+                "ansible_winrm_operation_timeout_sec": 60, 
+                "ansible_winrm_read_timeout_sec": 70, 
+                "ansible_winrm_server_cert_validation": "ignore", 
+                "ansible_winrm_transport": "ntlm", 
+                "application_ci": [], 
+                "collect_facts": false, 
+                "gather_subset": [
+                    {
+                        "__ansible_unsafe": "all"
+                    }
+                ], 
+                "module_setup": true, 
+                "zaskan_certs": "ZaskanCerts", 
+                "zaskan_choco_repo": "https://nexus3.zaskan.nl/repository/nuget_chocolatey_release/", 
+                "zaskan_config_dir": "\\zaskan\\Config", 
+                "zaskan_log_dir": "\\zaskan\\Logs", 
+                "zaskan_software_library": "http://dsl.zaskan.corp/SoftwareLibrary/", 
+                "skip_reboot": false
+            }, 
+            "wsae000769.eu.zaskan.com": {
+                "ansible_architecture": {
+                    "__ansible_unsafe": "64-bit"
+                }, 
+                "ansible_become_method": "runas", 
+                "ansible_bios_date": {
+                    "__ansible_unsafe": "04/05/2016"
+                }, 
+                "ansible_bios_version": {
+                    "__ansible_unsafe": "6.00"
+                }, 
+                "ansible_connection": "winrm", 
+                "ansible_date_time": {
+                    "date": {
+                        "__ansible_unsafe": "2020-09-10"
+                    }, 
+                    "day": {
+                        "__ansible_unsafe": "10"
+                    }, 
+                    "epoch": {
+                        "__ansible_unsafe": "1599730252.78679"
+                    }, 
+                    "hour": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "iso8601": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52Z"
+                    }, 
+                    "iso8601_basic": {
+                        "__ansible_unsafe": "20200910T093052786789"
+                    }, 
+                    "iso8601_basic_short": {
+                        "__ansible_unsafe": "20200910T093052"
+                    }, 
+                    "iso8601_micro": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52.786789Z"
+                    }, 
+                    "minute": {
+                        "__ansible_unsafe": "30"
+                    }, 
+                    "month": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "second": {
+                        "__ansible_unsafe": "52"
+                    }, 
+                    "time": {
+                        "__ansible_unsafe": "09:30:52"
+                    }, 
+                    "tz": {
+                        "__ansible_unsafe": "W. Europe Standard Time"
+                    }, 
+                    "tz_offset": {
+                        "__ansible_unsafe": "+02:00"
+                    }, 
+                    "weekday": {
+                        "__ansible_unsafe": "Thursday"
+                    }, 
+                    "weekday_number": {
+                        "__ansible_unsafe": "4"
+                    }, 
+                    "weeknumber": {
+                        "__ansible_unsafe": "36"
+                    }, 
+                    "year": {
+                        "__ansible_unsafe": "2020"
+                    }
+                }, 
+                "ansible_distribution": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_distribution_major_version": {
+                    "__ansible_unsafe": "10"
+                }, 
+                "ansible_distribution_version": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_domain": {
+                    "__ansible_unsafe": "eu.zaskan.com"
+                }, 
+                "ansible_env": {
+                    "ALLUSERSPROFILE": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "APPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Roaming"
+                    }, 
+                    "COMPUTERNAME": {
+                        "__ansible_unsafe": "WSAE000769"
+                    }, 
+                    "ChocolateyInstall": {
+                        "__ansible_unsafe": "C:\\ProgramData\\chocolatey"
+                    }, 
+                    "ChocolateyLastPathUpdate": {
+                        "__ansible_unsafe": "132406497824292480"
+                    }, 
+                    "ComSpec": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32\\cmd.exe"
+                    }, 
+                    "CommonProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "CommonProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)\\Common Files"
+                    }, 
+                    "CommonProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "DriverData": {
+                        "__ansible_unsafe": "C:\\Windows\\System32\\Drivers\\DriverData"
+                    }, 
+                    "LOCALAPPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Local"
+                    }, 
+                    "NUMBER_OF_PROCESSORS": {
+                        "__ansible_unsafe": "2"
+                    }, 
+                    "OS": {
+                        "__ansible_unsafe": "Windows_NT"
+                    }, 
+                    "PATHEXT": {
+                        "__ansible_unsafe": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"
+                    }, 
+                    "PROCESSOR_ARCHITECTURE": {
+                        "__ansible_unsafe": "AMD64"
+                    }, 
+                    "PROCESSOR_IDENTIFIER": {
+                        "__ansible_unsafe": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel"
+                    }, 
+                    "PROCESSOR_LEVEL": {
+                        "__ansible_unsafe": "6"
+                    }, 
+                    "PROCESSOR_REVISION": {
+                        "__ansible_unsafe": "4f01"
+                    }, 
+                    "PROMPT": {
+                        "__ansible_unsafe": "$P$G"
+                    }, 
+                    "PSExecutionPolicyPreference": {
+                        "__ansible_unsafe": "Unrestricted"
+                    }, 
+                    "PSModulePath": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell"
+                    }, 
+                    "PUBLIC": {
+                        "__ansible_unsafe": "C:\\Users\\Public"
+                    }, 
+                    "Path": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\AnsibleAdmin\\AppData\\Local\\Microsoft\\WindowsApps"
+                    }, 
+                    "ProgramData": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "ProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "ProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)"
+                    }, 
+                    "ProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "SupportTeam": {
+                        "__ansible_unsafe": "EUDCTSWIN;EUDCTSDBA;"
+                    }, 
+                    "SystemDrive": {
+                        "__ansible_unsafe": "C:"
+                    }, 
+                    "SystemRoot": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }, 
+                    "TEMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "TMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "USERDOMAIN": {
+                        "__ansible_unsafe": "WSAE000769"
+                    }, 
+                    "USERNAME": {
+                        "__ansible_unsafe": "AnsibleAdmin"
+                    }, 
+                    "USERPROFILE": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                    }, 
+                    "snow_agent": {
+                        "__ansible_unsafe": "C:\\Program Files\\Snow Software\\Inventory\\Agent"
+                    }, 
+                    "windir": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }
+                }, 
+                "ansible_fqdn": {
+                    "__ansible_unsafe": "WSAE000769.eu.zaskan.com"
+                }, 
+                "ansible_hostname": {
+                    "__ansible_unsafe": "WSAE000769"
+                }, 
+                "ansible_interfaces": [
+                    {
+                        "connection_name": {
+                            "__ansible_unsafe": "Intranet"
+                        }, 
+                        "default_gateway": {
+                            "__ansible_unsafe": "172.21.96.1"
+                        }, 
+                        "dns_domain": null, 
+                        "interface_index": 6, 
+                        "interface_name": {
+                            "__ansible_unsafe": "vmxnet3 Ethernet Adapter"
+                        }, 
+                        "macaddress": {
+                            "__ansible_unsafe": "00:50:56:A3:64:73"
+                        }
+                    }
+                ], 
+                "ansible_ip_addresses": [
+                    {
+                        "__ansible_unsafe": "172.21.96.174"
+                    }, 
+                    {
+                        "__ansible_unsafe": "fe80::9124:b952:c1fb:4cd"
+                    }
+                ], 
+                "ansible_kernel": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_lastboot": {
+                    "__ansible_unsafe": "2020-07-31 13:19:25Z"
+                }, 
+                "ansible_machine_id": {
+                    "__ansible_unsafe": "S-1-5-21-1380014999-2938907228-3116261587"
+                }, 
+                "ansible_memtotal_mb": 4096, 
+                "ansible_netbios_name": {
+                    "__ansible_unsafe": "WSAE000769"
+                }, 
+                "ansible_nodename": {
+                    "__ansible_unsafe": "WSAE000769.eu.zaskan.com"
+                }, 
+                "ansible_os_family": {
+                    "__ansible_unsafe": "Windows"
+                }, 
+                "ansible_os_name": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_os_product_type": {
+                    "__ansible_unsafe": "server"
+                }, 
+                "ansible_owner_contact": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_owner_name": {
+                    "__ansible_unsafe": "zaskan ICT"
+                }, 
+                "ansible_password": "RedHatAn$1ble1", 
+                "ansible_port": 5986, 
+                "ansible_powershell_version": 5, 
+                "ansible_processor": [
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }, 
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }
+                ], 
+                "ansible_processor_cores": 1, 
+                "ansible_processor_count": 2, 
+                "ansible_processor_threads_per_core": 1, 
+                "ansible_processor_vcpus": 2, 
+                "ansible_product_name": {
+                    "__ansible_unsafe": "VMware Virtual Platform"
+                }, 
+                "ansible_product_serial": {
+                    "__ansible_unsafe": "VMware-42 23 30 85 25 27 b0 11-d2 15 f7 01 45 22 fd 30"
+                }, 
+                "ansible_reboot_pending": null, 
+                "ansible_swaptotal_mb": 0, 
+                "ansible_system": {
+                    "__ansible_unsafe": "Win32NT"
+                }, 
+                "ansible_system_description": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_system_vendor": {
+                    "__ansible_unsafe": "VMware, Inc."
+                }, 
+                "ansible_uptime_seconds": 3528691, 
+                "ansible_user": "AnsibleAdmin", 
+                "ansible_user_dir": {
+                    "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                }, 
+                "ansible_user_gecos": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_user_id": {
+                    "__ansible_unsafe": "AnsibleAdmin"
+                }, 
+                "ansible_user_sid": {
+                    "__ansible_unsafe": "S-1-5-21-1380014999-2938907228-3116261587-1000"
+                }, 
+                "ansible_virtualization_role": {
+                    "__ansible_unsafe": "guest"
+                }, 
+                "ansible_virtualization_type": {
+                    "__ansible_unsafe": "VMware"
+                }, 
+                "ansible_win_rm_certificate_expires": {
+                    "__ansible_unsafe": "2022-07-31 13:09:47"
+                }, 
+                "ansible_windows_domain": {
+                    "__ansible_unsafe": "eu.zaskan.com"
+                }, 
+                "ansible_windows_domain_member": true, 
+                "ansible_windows_domain_role": {
+                    "__ansible_unsafe": "Member server"
+                }, 
+                "ansible_winrm_message_encryption": "always", 
+                "ansible_winrm_operation_timeout_sec": 60, 
+                "ansible_winrm_read_timeout_sec": 70, 
+                "ansible_winrm_server_cert_validation": "ignore", 
+                "ansible_winrm_transport": "ntlm", 
+                "application_ci": [], 
+                "collect_facts": false, 
+                "gather_subset": [
+                    {
+                        "__ansible_unsafe": "all"
+                    }
+                ], 
+                "module_setup": true, 
+                "zaskan_certs": "ZaskanCerts", 
+                "zaskan_choco_repo": "https://nexus3.zaskan.nl/repository/nuget_chocolatey_release/", 
+                "zaskan_config_dir": "\\zaskan\\Config", 
+                "zaskan_log_dir": "\\zaskan\\Logs", 
+                "zaskan_software_library": "http://dsl.zaskan.corp/SoftwareLibrary/", 
+                "skip_reboot": false
+            }, 
+            "wsae000770.eu.zaskan.com": {
+                "ansible_architecture": {
+                    "__ansible_unsafe": "64-bit"
+                }, 
+                "ansible_become_method": "runas", 
+                "ansible_bios_date": {
+                    "__ansible_unsafe": "04/05/2016"
+                }, 
+                "ansible_bios_version": {
+                    "__ansible_unsafe": "6.00"
+                }, 
+                "ansible_connection": "winrm", 
+                "ansible_date_time": {
+                    "date": {
+                        "__ansible_unsafe": "2020-09-10"
+                    }, 
+                    "day": {
+                        "__ansible_unsafe": "10"
+                    }, 
+                    "epoch": {
+                        "__ansible_unsafe": "1599730252.5242"
+                    }, 
+                    "hour": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "iso8601": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52Z"
+                    }, 
+                    "iso8601_basic": {
+                        "__ansible_unsafe": "20200910T093052508585"
+                    }, 
+                    "iso8601_basic_short": {
+                        "__ansible_unsafe": "20200910T093052"
+                    }, 
+                    "iso8601_micro": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52.508585Z"
+                    }, 
+                    "minute": {
+                        "__ansible_unsafe": "30"
+                    }, 
+                    "month": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "second": {
+                        "__ansible_unsafe": "52"
+                    }, 
+                    "time": {
+                        "__ansible_unsafe": "09:30:52"
+                    }, 
+                    "tz": {
+                        "__ansible_unsafe": "W. Europe Standard Time"
+                    }, 
+                    "tz_offset": {
+                        "__ansible_unsafe": "+02:00"
+                    }, 
+                    "weekday": {
+                        "__ansible_unsafe": "Thursday"
+                    }, 
+                    "weekday_number": {
+                        "__ansible_unsafe": "4"
+                    }, 
+                    "weeknumber": {
+                        "__ansible_unsafe": "36"
+                    }, 
+                    "year": {
+                        "__ansible_unsafe": "2020"
+                    }
+                }, 
+                "ansible_distribution": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_distribution_major_version": {
+                    "__ansible_unsafe": "10"
+                }, 
+                "ansible_distribution_version": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_domain": {
+                    "__ansible_unsafe": "eu.zaskan.com"
+                }, 
+                "ansible_env": {
+                    "ALLUSERSPROFILE": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "APPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Roaming"
+                    }, 
+                    "COMPUTERNAME": {
+                        "__ansible_unsafe": "WSAE000770"
+                    }, 
+                    "ChocolateyInstall": {
+                        "__ansible_unsafe": "C:\\ProgramData\\chocolatey"
+                    }, 
+                    "ChocolateyLastPathUpdate": {
+                        "__ansible_unsafe": "132398113970133827"
+                    }, 
+                    "ComSpec": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32\\cmd.exe"
+                    }, 
+                    "CommonProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "CommonProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)\\Common Files"
+                    }, 
+                    "CommonProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "DriverData": {
+                        "__ansible_unsafe": "C:\\Windows\\System32\\Drivers\\DriverData"
+                    }, 
+                    "LOCALAPPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Local"
+                    }, 
+                    "NUMBER_OF_PROCESSORS": {
+                        "__ansible_unsafe": "2"
+                    }, 
+                    "OS": {
+                        "__ansible_unsafe": "Windows_NT"
+                    }, 
+                    "PATHEXT": {
+                        "__ansible_unsafe": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"
+                    }, 
+                    "PROCESSOR_ARCHITECTURE": {
+                        "__ansible_unsafe": "AMD64"
+                    }, 
+                    "PROCESSOR_IDENTIFIER": {
+                        "__ansible_unsafe": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel"
+                    }, 
+                    "PROCESSOR_LEVEL": {
+                        "__ansible_unsafe": "6"
+                    }, 
+                    "PROCESSOR_REVISION": {
+                        "__ansible_unsafe": "4f01"
+                    }, 
+                    "PROMPT": {
+                        "__ansible_unsafe": "$P$G"
+                    }, 
+                    "PSExecutionPolicyPreference": {
+                        "__ansible_unsafe": "Unrestricted"
+                    }, 
+                    "PSModulePath": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell"
+                    }, 
+                    "PUBLIC": {
+                        "__ansible_unsafe": "C:\\Users\\Public"
+                    }, 
+                    "Path": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\AnsibleAdmin\\AppData\\Local\\Microsoft\\WindowsApps"
+                    }, 
+                    "ProgramData": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "ProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "ProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)"
+                    }, 
+                    "ProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "SupportTeam": {
+                        "__ansible_unsafe": "EUDCTSWIN;EUDCTSDBA;"
+                    }, 
+                    "SystemDrive": {
+                        "__ansible_unsafe": "C:"
+                    }, 
+                    "SystemRoot": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }, 
+                    "TEMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "TMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "USERDOMAIN": {
+                        "__ansible_unsafe": "WSAE000770"
+                    }, 
+                    "USERNAME": {
+                        "__ansible_unsafe": "AnsibleAdmin"
+                    }, 
+                    "USERPROFILE": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                    }, 
+                    "snow_agent": {
+                        "__ansible_unsafe": "C:\\Program Files\\Snow Software\\Inventory\\Agent"
+                    }, 
+                    "windir": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }
+                }, 
+                "ansible_fqdn": {
+                    "__ansible_unsafe": "WSAE000770.eu.zaskan.com"
+                }, 
+                "ansible_hostname": {
+                    "__ansible_unsafe": "WSAE000770"
+                }, 
+                "ansible_interfaces": [
+                    {
+                        "connection_name": {
+                            "__ansible_unsafe": "Intranet"
+                        }, 
+                        "default_gateway": {
+                            "__ansible_unsafe": "172.21.96.1"
+                        }, 
+                        "dns_domain": null, 
+                        "interface_index": 4, 
+                        "interface_name": {
+                            "__ansible_unsafe": "vmxnet3 Ethernet Adapter"
+                        }, 
+                        "macaddress": {
+                            "__ansible_unsafe": "00:50:56:A7:86:53"
+                        }
+                    }
+                ], 
+                "ansible_ip_addresses": [
+                    {
+                        "__ansible_unsafe": "172.21.96.175"
+                    }, 
+                    {
+                        "__ansible_unsafe": "fe80::850d:6847:5f64:f288"
+                    }
+                ], 
+                "ansible_kernel": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_lastboot": {
+                    "__ansible_unsafe": "2020-07-22 14:51:53Z"
+                }, 
+                "ansible_machine_id": {
+                    "__ansible_unsafe": "S-1-5-21-2826524751-2146074608-2961843283"
+                }, 
+                "ansible_memtotal_mb": 4096, 
+                "ansible_netbios_name": {
+                    "__ansible_unsafe": "WSAE000770"
+                }, 
+                "ansible_nodename": {
+                    "__ansible_unsafe": "WSAE000770.eu.zaskan.com"
+                }, 
+                "ansible_os_family": {
+                    "__ansible_unsafe": "Windows"
+                }, 
+                "ansible_os_name": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_os_product_type": {
+                    "__ansible_unsafe": "server"
+                }, 
+                "ansible_owner_contact": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_owner_name": {
+                    "__ansible_unsafe": "zaskan ICT"
+                }, 
+                "ansible_password": "RedHatAn$1ble1", 
+                "ansible_port": 5986, 
+                "ansible_powershell_version": 5, 
+                "ansible_processor": [
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }, 
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }
+                ], 
+                "ansible_processor_cores": 1, 
+                "ansible_processor_count": 2, 
+                "ansible_processor_threads_per_core": 1, 
+                "ansible_processor_vcpus": 2, 
+                "ansible_product_name": {
+                    "__ansible_unsafe": "VMware Virtual Platform"
+                }, 
+                "ansible_product_serial": {
+                    "__ansible_unsafe": "VMware-42 27 b6 fa db 17 8b cf-de 57 8e 65 7d b4 0d b7"
+                }, 
+                "ansible_reboot_pending": null, 
+                "ansible_swaptotal_mb": 0, 
+                "ansible_system": {
+                    "__ansible_unsafe": "Win32NT"
+                }, 
+                "ansible_system_description": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_system_vendor": {
+                    "__ansible_unsafe": "VMware, Inc."
+                }, 
+                "ansible_uptime_seconds": 4300742, 
+                "ansible_user": "AnsibleAdmin", 
+                "ansible_user_dir": {
+                    "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                }, 
+                "ansible_user_gecos": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_user_id": {
+                    "__ansible_unsafe": "AnsibleAdmin"
+                }, 
+                "ansible_user_sid": {
+                    "__ansible_unsafe": "S-1-5-21-2826524751-2146074608-2961843283-1000"
+                }, 
+                "ansible_virtualization_role": {
+                    "__ansible_unsafe": "guest"
+                }, 
+                "ansible_virtualization_type": {
+                    "__ansible_unsafe": "VMware"
+                }, 
+                "ansible_win_rm_certificate_expires": {
+                    "__ansible_unsafe": "2022-07-22 14:43:00"
+                }, 
+                "ansible_windows_domain": {
+                    "__ansible_unsafe": "eu.zaskan.com"
+                }, 
+                "ansible_windows_domain_member": true, 
+                "ansible_windows_domain_role": {
+                    "__ansible_unsafe": "Member server"
+                }, 
+                "ansible_winrm_message_encryption": "always", 
+                "ansible_winrm_operation_timeout_sec": 60, 
+                "ansible_winrm_read_timeout_sec": 70, 
+                "ansible_winrm_server_cert_validation": "ignore", 
+                "ansible_winrm_transport": "ntlm", 
+                "application_ci": [], 
+                "collect_facts": false, 
+                "gather_subset": [
+                    {
+                        "__ansible_unsafe": "all"
+                    }
+                ], 
+                "module_setup": true, 
+                "zaskan_certs": "ZaskanCerts", 
+                "zaskan_choco_repo": "https://nexus3.zaskan.nl/repository/nuget_chocolatey_release/", 
+                "zaskan_config_dir": "\\zaskan\\Config", 
+                "zaskan_log_dir": "\\zaskan\\Logs", 
+                "zaskan_software_library": "http://dsl.zaskan.corp/SoftwareLibrary/", 
+                "skip_reboot": false
+            }, 
+            "wsae000771.eu.zaskan.com": {
+                "ansible_architecture": {
+                    "__ansible_unsafe": "64-bit"
+                }, 
+                "ansible_become_method": "runas", 
+                "ansible_bios_date": {
+                    "__ansible_unsafe": "04/05/2016"
+                }, 
+                "ansible_bios_version": {
+                    "__ansible_unsafe": "6.00"
+                }, 
+                "ansible_connection": "winrm", 
+                "ansible_date_time": {
+                    "date": {
+                        "__ansible_unsafe": "2020-09-10"
+                    }, 
+                    "day": {
+                        "__ansible_unsafe": "10"
+                    }, 
+                    "epoch": {
+                        "__ansible_unsafe": "1599730252.01255"
+                    }, 
+                    "hour": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "iso8601": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52Z"
+                    }, 
+                    "iso8601_basic": {
+                        "__ansible_unsafe": "20200910T093052012552"
+                    }, 
+                    "iso8601_basic_short": {
+                        "__ansible_unsafe": "20200910T093052"
+                    }, 
+                    "iso8601_micro": {
+                        "__ansible_unsafe": "2020-09-10T07:30:52.012552Z"
+                    }, 
+                    "minute": {
+                        "__ansible_unsafe": "30"
+                    }, 
+                    "month": {
+                        "__ansible_unsafe": "09"
+                    }, 
+                    "second": {
+                        "__ansible_unsafe": "52"
+                    }, 
+                    "time": {
+                        "__ansible_unsafe": "09:30:52"
+                    }, 
+                    "tz": {
+                        "__ansible_unsafe": "W. Europe Standard Time"
+                    }, 
+                    "tz_offset": {
+                        "__ansible_unsafe": "+02:00"
+                    }, 
+                    "weekday": {
+                        "__ansible_unsafe": "Thursday"
+                    }, 
+                    "weekday_number": {
+                        "__ansible_unsafe": "4"
+                    }, 
+                    "weeknumber": {
+                        "__ansible_unsafe": "36"
+                    }, 
+                    "year": {
+                        "__ansible_unsafe": "2020"
+                    }
+                }, 
+                "ansible_distribution": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_distribution_major_version": {
+                    "__ansible_unsafe": "10"
+                }, 
+                "ansible_distribution_version": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_domain": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_env": {
+                    "ALLUSERSPROFILE": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "APPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Roaming"
+                    }, 
+                    "COMPUTERNAME": {
+                        "__ansible_unsafe": "WSAE000771"
+                    }, 
+                    "ChocolateyInstall": {
+                        "__ansible_unsafe": "C:\\ProgramData\\chocolatey"
+                    }, 
+                    "ChocolateyLastPathUpdate": {
+                        "__ansible_unsafe": "132406640013867767"
+                    }, 
+                    "ComSpec": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32\\cmd.exe"
+                    }, 
+                    "CommonProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "CommonProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)\\Common Files"
+                    }, 
+                    "CommonProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files\\Common Files"
+                    }, 
+                    "DriverData": {
+                        "__ansible_unsafe": "C:\\Windows\\System32\\Drivers\\DriverData"
+                    }, 
+                    "LOCALAPPDATA": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\AppData\\Local"
+                    }, 
+                    "NUMBER_OF_PROCESSORS": {
+                        "__ansible_unsafe": "2"
+                    }, 
+                    "OS": {
+                        "__ansible_unsafe": "Windows_NT"
+                    }, 
+                    "PATHEXT": {
+                        "__ansible_unsafe": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL"
+                    }, 
+                    "PROCESSOR_ARCHITECTURE": {
+                        "__ansible_unsafe": "AMD64"
+                    }, 
+                    "PROCESSOR_IDENTIFIER": {
+                        "__ansible_unsafe": "Intel64 Family 6 Model 79 Stepping 1, GenuineIntel"
+                    }, 
+                    "PROCESSOR_LEVEL": {
+                        "__ansible_unsafe": "6"
+                    }, 
+                    "PROCESSOR_REVISION": {
+                        "__ansible_unsafe": "4f01"
+                    }, 
+                    "PROMPT": {
+                        "__ansible_unsafe": "$P$G"
+                    }, 
+                    "PSExecutionPolicyPreference": {
+                        "__ansible_unsafe": "Unrestricted"
+                    }, 
+                    "PSModulePath": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files\\Microsoft Monitoring Agent\\Agent\\PowerShell"
+                    }, 
+                    "PUBLIC": {
+                        "__ansible_unsafe": "C:\\Users\\Public"
+                    }, 
+                    "Path": {
+                        "__ansible_unsafe": "C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\chocolatey\\bin;C:\\Users\\AnsibleAdmin\\AppData\\Local\\Microsoft\\WindowsApps"
+                    }, 
+                    "ProgramData": {
+                        "__ansible_unsafe": "C:\\ProgramData"
+                    }, 
+                    "ProgramFiles": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "ProgramFiles(x86)": {
+                        "__ansible_unsafe": "C:\\Program Files (x86)"
+                    }, 
+                    "ProgramW6432": {
+                        "__ansible_unsafe": "C:\\Program Files"
+                    }, 
+                    "SupportTeam": {
+                        "__ansible_unsafe": "EUDCTSWIN;EUDCTSDBA;"
+                    }, 
+                    "SystemDrive": {
+                        "__ansible_unsafe": "C:"
+                    }, 
+                    "SystemRoot": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }, 
+                    "TEMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "TMP": {
+                        "__ansible_unsafe": "C:\\Users\\ANSIBL~1\\AppData\\Local\\Temp"
+                    }, 
+                    "USERDOMAIN": {
+                        "__ansible_unsafe": "WSAE000771"
+                    }, 
+                    "USERNAME": {
+                        "__ansible_unsafe": "AnsibleAdmin"
+                    }, 
+                    "USERPROFILE": {
+                        "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                    }, 
+                    "snow_agent": {
+                        "__ansible_unsafe": "C:\\Program Files\\Snow Software\\Inventory\\Agent"
+                    }, 
+                    "windir": {
+                        "__ansible_unsafe": "C:\\WINDOWS"
+                    }
+                }, 
+                "ansible_fqdn": {
+                    "__ansible_unsafe": "WSAE000771"
+                }, 
+                "ansible_hostname": {
+                    "__ansible_unsafe": "WSAE000771"
+                }, 
+                "ansible_interfaces": [
+                    {
+                        "connection_name": {
+                            "__ansible_unsafe": "Intranet"
+                        }, 
+                        "default_gateway": {
+                            "__ansible_unsafe": "172.21.96.1"
+                        }, 
+                        "dns_domain": null, 
+                        "interface_index": 4, 
+                        "interface_name": {
+                            "__ansible_unsafe": "vmxnet3 Ethernet Adapter"
+                        }, 
+                        "macaddress": {
+                            "__ansible_unsafe": "00:50:56:A7:CD:E4"
+                        }
+                    }
+                ], 
+                "ansible_ip_addresses": [
+                    {
+                        "__ansible_unsafe": "172.21.96.176"
+                    }, 
+                    {
+                        "__ansible_unsafe": "fe80::e929:3b6e:a214:b29c"
+                    }
+                ], 
+                "ansible_kernel": {
+                    "__ansible_unsafe": "10.0.17763.0"
+                }, 
+                "ansible_lastboot": {
+                    "__ansible_unsafe": "2020-07-31 12:19:12Z"
+                }, 
+                "ansible_machine_id": {
+                    "__ansible_unsafe": "S-1-5-21-2274757555-3402540911-634290276"
+                }, 
+                "ansible_memtotal_mb": 4096, 
+                "ansible_netbios_name": {
+                    "__ansible_unsafe": "WSAE000771"
+                }, 
+                "ansible_nodename": {
+                    "__ansible_unsafe": "WSAE000771"
+                }, 
+                "ansible_os_family": {
+                    "__ansible_unsafe": "Windows"
+                }, 
+                "ansible_os_name": {
+                    "__ansible_unsafe": "Microsoft Windows Server 2019 Standard"
+                }, 
+                "ansible_os_product_type": {
+                    "__ansible_unsafe": "server"
+                }, 
+                "ansible_owner_contact": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_owner_name": {
+                    "__ansible_unsafe": "zaskan ICT"
+                }, 
+                "ansible_password": "RedHatAn$1ble1", 
+                "ansible_port": 5986, 
+                "ansible_powershell_version": 5, 
+                "ansible_processor": [
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }, 
+                    {
+                        "__ansible_unsafe": "GenuineIntel"
+                    }, 
+                    {
+                        "__ansible_unsafe": "Intel(R) Xeon(R) CPU E5-2667 v4 @ 3.20GHz"
+                    }
+                ], 
+                "ansible_processor_cores": 1, 
+                "ansible_processor_count": 2, 
+                "ansible_processor_threads_per_core": 1, 
+                "ansible_processor_vcpus": 2, 
+                "ansible_product_name": {
+                    "__ansible_unsafe": "VMware Virtual Platform"
+                }, 
+                "ansible_product_serial": {
+                    "__ansible_unsafe": "VMware-42 27 0e 11 1d c5 aa ce-00 28 fe b0 5d e7 cb 27"
+                }, 
+                "ansible_reboot_pending": null, 
+                "ansible_swaptotal_mb": 0, 
+                "ansible_system": {
+                    "__ansible_unsafe": "Win32NT"
+                }, 
+                "ansible_system_description": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_system_vendor": {
+                    "__ansible_unsafe": "VMware, Inc."
+                }, 
+                "ansible_uptime_seconds": 3532302, 
+                "ansible_user": "AnsibleAdmin", 
+                "ansible_user_dir": {
+                    "__ansible_unsafe": "C:\\Users\\AnsibleAdmin"
+                }, 
+                "ansible_user_gecos": {
+                    "__ansible_unsafe": ""
+                }, 
+                "ansible_user_id": {
+                    "__ansible_unsafe": "AnsibleAdmin"
+                }, 
+                "ansible_user_sid": {
+                    "__ansible_unsafe": "S-1-5-21-2274757555-3402540911-634290276-1000"
+                }, 
+                "ansible_virtualization_role": {
+                    "__ansible_unsafe": "guest"
+                }, 
+                "ansible_virtualization_type": {
+                    "__ansible_unsafe": "VMware"
+                }, 
+                "ansible_win_rm_certificate_expires": {
+                    "__ansible_unsafe": "2023-07-30 13:25:49"
+                }, 
+                "ansible_windows_domain": {
+                    "__ansible_unsafe": "WORKGROUP"
+                }, 
+                "ansible_windows_domain_member": false, 
+                "ansible_windows_domain_role": {
+                    "__ansible_unsafe": "Stand-alone server"
+                }, 
+                "ansible_winrm_message_encryption": "always", 
+                "ansible_winrm_operation_timeout_sec": 60, 
+                "ansible_winrm_read_timeout_sec": 70, 
+                "ansible_winrm_server_cert_validation": "ignore", 
+                "ansible_winrm_transport": "ntlm", 
+                "application_ci": [], 
+                "collect_facts": false, 
+                "gather_subset": [
+                    {
+                        "__ansible_unsafe": "all"
+                    }
+                ], 
+                "module_setup": true, 
+                "zaskan_certs": "ZaskanCerts", 
+                "zaskan_choco_repo": "https://nexus3.zaskan.nl/repository/nuget_chocolatey_release/", 
+                "zaskan_config_dir": "\\zaskan\\Config", 
+                "zaskan_log_dir": "\\zaskan\\Logs", 
+                "zaskan_software_library": "http://dsl.zaskan.corp/SoftwareLibrary/", 
+                "skip_reboot": false
+            }, 
+            "wste000007.eu.zaskan.com": {
+                "application_ci": []
+            }
+        }
+    }, 
+    "all": {
+        "children": [
+            "Domain_WORKGROUP", 
+            "Domain_eu_zaskan_com", 
+            "OS_Microsoft_Windows_Server_2019_Standard", 
+            "WSAE000002", 
+            "WSAE000768", 
+            "WSAE000769", 
+            "WSAE000770", 
+            "WSAE000771", 
+            "WSTE000007", 
+            "distro_Microsoft_Windows_Server_2019_Standard", 
+            "env_Acceptance", 
+            "env_Test", 
+            "os_family_Windows", 
+            "region_Europe", 
+            "ungrouped"
+        ]
+    }, 
+    "distro_Microsoft_Windows_Server_2019_Standard": {
+        "hosts": [
+            "wsae000768.eu.zaskan.com", 
+            "wsae000769.eu.zaskan.com", 
+            "wsae000770.eu.zaskan.com", 
+            "wsae000771.eu.zaskan.com"
+        ]
+    }, 
+    "env_Acceptance": {
+        "hosts": [
+            "wsae000002.eu.zaskan.com", 
+            "wsae000768.eu.zaskan.com", 
+            "wsae000769.eu.zaskan.com", 
+            "wsae000770.eu.zaskan.com", 
+            "wsae000771.eu.zaskan.com"
+        ]
+    }, 
+    "env_Test": {
+        "hosts": [
+            "wste000007.eu.zaskan.com"
+        ]
+    }, 
+    "os_family_Windows": {
+        "hosts": [
+            "wsae000768.eu.zaskan.com", 
+            "wsae000769.eu.zaskan.com", 
+            "wsae000770.eu.zaskan.com", 
+            "wsae000771.eu.zaskan.com"
+        ]
+    }, 
+    "region_Europe": {
+        "hosts": [
+            "wsae000002.eu.zaskan.com", 
+            "wsae000768.eu.zaskan.com", 
+            "wsae000769.eu.zaskan.com", 
+            "wsae000770.eu.zaskan.com", 
+            "wsae000771.eu.zaskan.com", 
+            "wste000007.eu.zaskan.com"
+        ]
+    }
+}

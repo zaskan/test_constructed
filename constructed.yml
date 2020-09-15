@@ -1,0 +1,50 @@
+#############################################################################
+# inventory.config file in YAML format
+#############################################################################
+plugin: constructed
+strict: False
+
+groups:
+  ###########################################################################
+  # ENVIRONMENT
+  ###########################################################################
+  env_Production: inventory_hostname.startswith('wsp')
+  env_DMZ: inventory_hostname.startswith('wse')
+  env_Acceptance: inventory_hostname.startswith('wsa')
+  env_Test: inventory_hostname.startswith('wst')
+  env_Development: inventory_hostname.startswith('wsd')
+  env_Sandbox: inventory_hostname.startswith('wss')
+
+  ###########################################################################
+  # REGION
+  ###########################################################################
+  region_Europe: 'inventory_hostname | regex_search("ws.e[0-9]+")'
+  region_AsiaPacific: 'inventory_hostname | regex_search("ws.a[0-9]+\.ap\.*")'
+  region_Oceania: 'inventory_hostname | regex_search("ws.a[0-9]+\.oc\.*")'
+  region_NorthAmerica: 'inventory_hostname | regex_search("ws.n[0-9]+")'
+  region_SouthAmerica: 'inventory_hostname | regex_search("ws.s[0-9]+")'
+
+
+keyed_groups:
+  # this creates a group per distro (distro_CentOS, distro_Debian) and assigns the hosts that have matching values to it,
+  # using the default separator "_"
+  - prefix: distro
+    key: ansible_distribution
+  # keyed_groups:
+  #   ###########################################################################
+  #   # PLATFORM
+  #   ###########################################################################
+  #   - prefix: Virtualization
+  #     key: hostvars[inventory_hostname]ansible_virtualization_type
+
+  #   ###########################################################################
+  #   # OS
+  #   ###########################################################################
+  - key: ansible_os_name
+    prefix: OS
+
+  - key: ansible_os_family
+    prefix: os_family
+
+  - key: ansible_windows_domain
+    prefix: Domain
